@@ -2,18 +2,17 @@
   <div id="staff">
     <Header />
     <div class="ttl">
-      <h1 class="staff-ttl">スタッフ紹介</h1>
-      <p class="eng-ttl">Members</p>
+      <img src="../assets/MEMBERS.jpg" alt="スタッフ紹介">
     </div>
     <div class="office">
-      <h2 class="office-ttl">ごあいさつ</h2>
+      <h2 class="section-ttl">ごあいさつ</h2>
       <div class="flex">
         <p class="office-content">当丸野・森本司法書士事務所は、地元大阪府茨木市を中心とした、地元密着型司法書士事務所を目指しております。地域の皆様のお役に立てますよう、スタッフ一同、日夜努力しております。身近な町の法律家として、当事務所まで、お気軽にご相談下さい。</p>
-        <img src="../assets/photo_staff.jpg">
+        <img src="../assets/photo_staff.jpg" alt="スタッフ">
       </div>
     </div>
     <div class="profile">
-      <h2 class="profile-ttl">プロフィール</h2>
+      <h2 class="section-ttl">プロフィール</h2>
       <div class="profile-card flex">
         <div class="maruno">
             <h3 class="name">丸野 テル子</h3>
@@ -52,18 +51,14 @@ export default {
 
 <style scoped>
 .ttl {
-  width: 70%;
-  margin: 50px auto;
-  background:url('../assets/about1.jpg') no-repeat;
-  padding: 100px;
-  background-size:cover;
-  background-position:center;
-  text-align: center;
-  border-radius: 5px;
+  max-width: 100%;
+  margin: 20px 0;
 }
-.staff-ttl {
-  font-size: 30px;
-  padding-top: 20px 0;
+.section-ttl {
+  margin: 20px 0;
+  padding-left: 20px;
+  border-left: 4px solid #f7813d;
+  font-size: 1.5rem;
 }
 .office {
   width: 80%;
@@ -73,12 +68,6 @@ export default {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-.office-ttl {
-  margin: 10px 0;
-  padding-left: 20px;
-  border-left: 4px solid #f7813d;
-  font-size: 1.5rem;
 }
 .office-content {
   line-height: 2rem;
@@ -94,12 +83,6 @@ export default {
 .profile {
   width: 80%;
   margin: 70px auto;
-}
-.profile-ttl {
-  margin: 40px 0;
-  padding-left: 20px;
-  border-left: 4px solid #f7813d;
-  font-size: 1.7rem;
 }
 .name {
   font-size: 1.3rem;
@@ -124,34 +107,46 @@ export default {
   text-align: left;
   margin-left: 20px;
 }
+
+/* --------------
+-----Responsive----
+-------------- */
+
 @media screen and (max-width: 768px) {
+  .section-ttl {
+    font-size: 1.1rem;
+  }
   .flex {
     display: block;
     align-items: center;
   }
-  .office {
+  .office,
+  .profile {
     width: 90%;
+    margin-top:30px;
+    margin-bottom: 40px;
   }
   .office-content {
     width: 90%;
     margin-right: 0px;
     margin: 20px auto;
-    line-height: 2rem;
+    line-height: 1.2rem;
+    font-size: 0.8rem;
   }
   .office img {
     display: block;
     width: 80%;
-    margin: 20px auto;
-  }
-  .profile {
-    width: 90%;
+    margin: 0 auto;
   }
   .maruno,
   .morimoto {
     width: 90%;
     margin: 20px auto;
+    font-size: 0.8rem;
   }
   .name {
+    font-size: 1rem;
+    width: 50%;
     text-align: center;
     margin: 0 auto;
   }

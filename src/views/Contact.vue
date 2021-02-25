@@ -2,19 +2,18 @@
   <div id="contact">
     <Header />
     <div class="ttl">
-      <h1 class="about-ttl">お問い合わせ</h1>
-      <p class="eng-ttl">Contact</p>
+       <img src="../assets/CONTACT.jpg" alt="お問い合わせ">
     </div>
     <div class="contact-info">
       <div class="tel">
-        <h2 class="tel-ttl">お電話でのお問い合わせ</h2>
+        <h2 class="section-ttl">お電話でのお問い合わせ</h2>
         <div>
           <p class="number">TEL：072-637-5141</p>
           <p class="hours">受付時間 平日：9:00～18:00</p>
         </div>
       </div>
       <div class="form">
-        <h2 class="form-ttl">メールでのお問い合わせ</h2>
+        <h2 class="section-ttl">メールでのお問い合わせ</h2>
       </div>
     </div>
     <form method="post" @submit.prevent="sendContact()">
@@ -87,25 +86,15 @@ export default {
 
 <style scoped>
 .ttl {
-  width: 70%;
-  margin: 50px auto;
-  background:url('../assets/about1.jpg') no-repeat;
-  padding: 100px;
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  border-radius: 5px;
-}
-.about-ttl {
-  font-size: 30px;
-  padding: 20px 0;
+  max-width: 100%;
+  margin: 20px 0;
 }
 .contact-info{
   width: 70%;
-  margin: 0 auto;
+  margin: 70px auto;
 }
-.tel-ttl {
-  margin: 50px 0;
+.section-ttl {
+  margin: 20px 0;
   padding-left: 20px;
   border-left: 4px solid #f7813d;
   font-size: 1.5rem;
@@ -115,7 +104,7 @@ export default {
   width: 30%;
   padding:30px 50px;
   text-align: center;
-  margin: 30px auto;
+  margin: 50px auto;
   font-weight: bold;
   border-radius: 3px;
 }
@@ -128,20 +117,14 @@ export default {
   font-size: 0.8rem;
   color: #fff;
 }
-.form-ttl {
-  margin: 50px 0;
-  padding-left: 20px;
-  border-left: 4px solid #f7813d;
-  font-size: 1.5rem;
-}
 form {
   width: 70%;
-  margin: 0 auto;
+  margin: 70px auto;
   padding-left: 20px ;
   text-align: center;
 }
 span {
-  margin-left: 15%;
+  margin-left: 20%;
   background-color: #FFA279;
   padding: 3px 8px;
   font-size: 14px;
@@ -185,21 +168,31 @@ textarea {
 .button:hover {
   opacity: 0.8;
 }
+
+/* --------------
+-----Responsive----
+-------------- */
+
 @media screen and (max-width: 768px) {
+  .section-ttl {
+    font-size: 1.1rem;
+  }
   .contact-info,
   form{
     width: 90%;
+    margin-top: 30px;
+    margin-bottom: 40px;
   }
   .tel div {
     width: 70%;
+    margin: 40px auto;
   }
   label {
     display: block;
     margin: 10px auto;
     width: 80%;
     text-align: center;
-    /* background-color: aqua; */
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   span {
     margin-left: 10px;

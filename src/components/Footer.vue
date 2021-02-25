@@ -52,10 +52,14 @@
   border-bottom: 1px solid #333;
 }
 .logo {
-  padding-top: 10px ;
   width: 70%;
 }
+
 @media screen and (max-width: 768px) {
+  #footer {
+    position: relative;
+    height: 110px;
+  }
   .flex {
     display: block;
   }
@@ -70,7 +74,11 @@
     width: 95%;
   }
   small {
-    font-size: 13px;
+    font-size: 10px;
+    position: absolute;
+    bottom: 25px;
+    left: 5px;
+
   }
 }
 </style>

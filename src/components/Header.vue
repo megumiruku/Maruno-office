@@ -74,7 +74,6 @@ export default {
   display: block;
   margin-left: 50px;
 }
-
 .right {
   width: 40%;
   display: flex;
@@ -232,8 +231,8 @@ export default {
     left: 0;
   }
   #header {
-    height: 70px;
-    padding: 05px;
+    height: 50px;
+    padding: 5px;
     margin: 0;
   }
   .logo {

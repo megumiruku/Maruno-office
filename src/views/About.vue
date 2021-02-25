@@ -2,11 +2,10 @@
   <div id="about"> 
     <Header />
     <div class="ttl">
-      <h1 class="about-ttl">事務所のご案内</h1>
-      <p class="eng-ttl">About</p>
+      <img src="../assets/ABOUT.jpg" alt="事務所案内">
     </div>
     <div class="about-office">
-      <h2 class="office-ttl">事務所概要</h2>
+      <h2 class="section-ttl">事務所概要</h2>
       <div class="flex">
         <table  class="table">
           <tr>
@@ -31,12 +30,12 @@
           </tr>
         </table>
         <div class="right">
-          <img src="../assets/office-outside.jpg" alt="" >
+          <img src="../assets/office-outside.jpg" alt="事務所外観" >
         </div>
       </div>
     </div>
     <div class="access">
-      <h2 class="access-ttl">事務所アクセス</h2>
+      <h2 class="section-ttl">事務所アクセス</h2>
       <div class="flex">
         <div class="left">
           <div class="train">
@@ -66,24 +65,13 @@ export default {
     Header, 
     Footer 
   },
-  
 }
 </script>
 
 <style scoped>
 .ttl {
-  width: 70%;
-  margin: 50px auto;
-  background:url('../assets/about1.jpg') no-repeat;
-  padding: 100px;
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  border-radius: 5px;
-}
-.about-ttl {
-  font-size: 30px;
-  padding: 20px 0;
+  max-width: 100%;
+  margin: 20px 0;
 }
 .about-office {
   width: 80%;
@@ -94,8 +82,8 @@ export default {
   align-items: center;
   justify-content: center;
 }
-.office-ttl {
-  margin: 10px 0;
+.section-ttl {
+  margin: 20px 0;
   padding-left: 20px;
   border-left: 4px solid #f7813d;
   font-size: 1.5rem;
@@ -114,19 +102,13 @@ export default {
   padding:10px;
 }
 .right img {
-  width: 300px;
+  max-width: 100%;
   margin-top: 50px;
   border-radius: 3px;
 }
 .access {
   width: 80%;
   margin: 70px auto;
-}
-.access-ttl {
-  margin: 20px 0;
-  padding-left: 20px;
-  border-left: 4px solid #f7813d;
-  font-size: 1.5rem;
 }
 .flex {
   display: flex;
@@ -148,27 +130,39 @@ export default {
   display: block;
   margin: 15px auto;
 }
+
+/* --------------
+-----Responsive----
+-------------- */
+
 @media screen and (max-width: 768px) {
   .about-office,
   .access {
     width: 90%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  .section-ttl {
+    font-size: 1.1rem;
   }
   .flex {
     display: block;
   }
   .table {
     width: 90%;
-    margin:30px auto;
+    margin: 20px auto;
+    border: none;
   }
-  .table td {
-    font-size: 12px;
+  .table th { 
+    border-bottom: none;
   }
-  .table th {
-    font-size: 16px;
-    line-height: 25px;
+  th, td {
+    display: block;
+    width: 90%;
+    text-align: center;
   }
   .right img {
-    width: 80%;
+    width: 90%;
     display: block;
     margin: 30px auto;
   }

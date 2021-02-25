@@ -12,7 +12,7 @@
     <div class="service mg-80">
       <h1 class="service-ttl">サ－ビス</h1>
       <div class="service-wrap" >
-        <div class="service-card" v-for="(data, index) in service" :key="index">
+        <div class="service-card" v-for="(data, index) in service" :key="index" @click="link()">
           <img :src="data.img" :alt="data.alt" />
           <h2 class="service-card-ttl">{{data.ttl}}</h2>
           <p class="service-card-content">{{data.description}}</p>
@@ -142,6 +142,9 @@ export default {
   methods: {
     transition() {
       this.$router.push({name: ""});
+    },
+    link() {
+      this.$router.push({name: "Service"});
     }
   }
 }
@@ -159,7 +162,7 @@ export default {
 .eyecatch img {
   width: 80%;
   display: block;
-  margin: 30px auto;
+  margin: 0px auto;
 }
 
 /* --------------
@@ -167,12 +170,12 @@ export default {
 -------------- */
 
 .service-ttl {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   text-align:center;
   border-bottom: 0.5px solid #333;
-  padding: 30px 0;
+  padding: 15px 0;
   width: 80%;
-  margin: 50px auto;
+  margin: 25px auto;
   color:#333;
 }
 .service-wrap {
@@ -189,7 +192,7 @@ export default {
   text-align: center;
 }
 .service-card-ttl {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #333;
   padding: 20px 0;
 }
@@ -225,12 +228,12 @@ export default {
 -------------- */
 
 .feature-ttl {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   text-align:center;
   border-bottom: 0.5px solid #333;
-  padding: 30px 0;
+  padding: 15px 0;
   width: 80%;
-  margin: 50px auto;
+  margin: 25px auto;
   color:#333;
 }
 .feature-wrap {
@@ -241,7 +244,7 @@ export default {
 }
 .feature-card {
   width: 40%;
-  margin:30px;
+  margin:20px;
 } 
 .feature-card-ttl {
   display: flex;
@@ -270,12 +273,12 @@ export default {
 -------------- */
 
 .news-ttl {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   text-align:center;
   border-bottom: 0.5px solid #333;
-  padding: 30px 0;
+  padding: 15px 0;
   width: 80%;
-  margin: 50px auto;
+  margin: 25px auto;
   color:#333;
 }
 .news-content {
@@ -323,12 +326,12 @@ export default {
 -------------- */
 
 .access-ttl {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   text-align:center;
   border-bottom: 0.5px solid #333;
-  padding: 30px 0;
+  padding: 15px 0;
   width: 80%;
-  margin: 50px auto;
+  margin: 25px auto;
   color:#333;
 }
 .access-info {
@@ -356,6 +359,11 @@ export default {
   padding:15px 30px;
   line-height: 1.6rem
 }
+
+/* --------------
+-----Responsive----
+-------------- */
+
 @media screen and (max-width: 768px) {
   .eyecatch img {
     width: 90%;
@@ -364,23 +372,51 @@ export default {
     flex-wrap: wrap;
   }
   .service-card {
-    width: 80%;
+    width: 90%;
     margin-bottom: 30px;
+  }
+  .service-card-content {
+    width: 90%;
   }
   .service-detail p {
     margin: 10px;
   }
   .feature-card {
-    width: 80%;
+    width: 90%;
   }
   .feature-detail {
-    padding-right: 0
+    display: block;
+    padding-right: 0;
   }
-  .news-content {
-    width: 80%;
+  .feature-card-ttl h2 {
+    font-size: 1rem;
+  }
+  .feture-card-content {
+    width: 95%;
     font-size: 0.9rem;
   }
+  .feature-img {
+    width: 95%;
+  }
+  .news1,
+  .news2 {
+    display: block;
+    text-align: center;
+  }
+  .news-content {
+    width: 100%;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .news-content .date {
+    text-align: center;
+    width: 30%;
+    margin: 20px auto;
+    padding: 3px;
+  }
   .news-button {
+    margin: 0px auto;
+    margin-top: 25px;
     padding: 5px 20px;
   }
   .access-ttl {
