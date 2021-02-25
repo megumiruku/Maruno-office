@@ -89,7 +89,7 @@ export default {
   border-bottom: 3px dashed #f7813d;
   width: 25%;
   padding:10px;
-  margin-bottom: 10px;
+  margin: 20px 0;
 }
 .description {
   line-height: 1.5rem;

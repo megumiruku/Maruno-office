@@ -173,7 +173,7 @@ export default {
   font-size: 1.5rem;
   text-align:center;
   border-bottom: 0.5px solid #333;
-  padding: 15px 0;
+  padding: 20px 0;
   width: 80%;
   margin: 25px auto;
   color:#333;
@@ -184,10 +184,10 @@ export default {
   justify-content: center;
 }
 .service-card img {
-  width: 100%;
+  max-width: 100%;
 }
 .service-card{
-  width: 27%;
+  width: 25%;
   margin: 0 10px;
   text-align: center;
 }
@@ -203,7 +203,7 @@ export default {
   margin: 0 auto;
 }
 .other-service h2 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight:bold;
   text-align: center;
   padding: 50px 0;
@@ -231,7 +231,7 @@ export default {
   font-size: 1.5rem;
   text-align:center;
   border-bottom: 0.5px solid #333;
-  padding: 15px 0;
+  padding: 20px 0;
   width: 80%;
   margin: 25px auto;
   color:#333;
@@ -243,8 +243,8 @@ export default {
   justify-content: center;
 }
 .feature-card {
-  width: 40%;
-  margin:20px;
+  width: 38%;
+  margin: 15px;
 } 
 .feature-card-ttl {
   display: flex;
@@ -276,18 +276,19 @@ export default {
   font-size: 1.5rem;
   text-align:center;
   border-bottom: 0.5px solid #333;
-  padding: 15px 0;
+  padding: 20px 0;
   width: 80%;
   margin: 25px auto;
   color:#333;
 }
 .news-content {
   width: 60%;
-  margin: 0 auto;
+  margin: 0px auto;
+  padding-top: 50px;
   font-size: 1.1rem;
 }
 .flex {
-  display: flex;
+  display: flex
 }
 .news-content .date {
   padding-right: 20px;
@@ -384,6 +385,10 @@ export default {
   .feature-card {
     width: 90%;
   }
+  .service-wrap img {
+    width: 60%;
+    height: auto;
+  }
   .feature-detail {
     display: block;
     padding-right: 0;
@@ -396,7 +401,9 @@ export default {
     font-size: 0.9rem;
   }
   .feature-img {
-    width: 95%;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
   }
   .news1,
   .news2 {
@@ -407,6 +414,7 @@ export default {
     width: 100%;
     font-size: 0.9rem;
     text-align: center;
+    padding-top: 10px;
   }
   .news-content .date {
     text-align: center;
@@ -430,7 +438,7 @@ export default {
     display: none;
   }
   .left {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
   }
   .left span {
