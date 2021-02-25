@@ -10,7 +10,7 @@
      -----Service----- 
      ----------------->
     <div class="service mg-80">
-      <h1 class="service-ttl">サ－ビス</h1>
+      <h1 class="section-ttl">サ－ビス</h1>
       <div class="service-wrap" >
         <div class="service-card" v-for="(data, index) in service" :key="index" @click="link()">
           <img :src="data.img" :alt="data.alt" />
@@ -34,7 +34,7 @@
      -----Features------
      ------------------>
     <div clas="feature mg-80">
-      <h1 class="feature-ttl">事務所の特徴</h1>
+      <h1 class="section-ttl">事務所の特徴</h1>
       <div class="feature-wrap" >
         <div class="feature-card" v-for="(data,index) in feature" :key="index">
           <div class="feature-card-ttl">
@@ -54,7 +54,7 @@
      -----News------
      -------------->
     <div class="news mg-80">
-      <h1 class="news-ttl">お知らせ</h1>
+      <h1 class="section-ttl">お知らせ</h1>
       <div class="news-content">
         <div class="news1 flex">
           <p class="date">2021年02月23日</p>
@@ -71,7 +71,7 @@
      -----Access------
      -------------->
     <div class="access mg-80">
-      <h1 class="access-ttl">アクセス</h1>
+      <h1 class="section-ttl">アクセス</h1>
       <div class="access-info"> 
         <div class="left">
           <img src="../assets/company-logo.png" alt="company-logo" />
@@ -151,6 +151,18 @@ export default {
 </script>
 
 <style scoped>
+/* --------------
+----Common----
+-------------- */
+.section-ttl {
+  font-size: 1.5rem;
+  text-align:center;
+  border-bottom: 0.5px solid #333;
+  padding: 20px 0;
+  width: 80%;
+  margin: 25px auto;
+  color:#333;
+}
 .mg-80 {
   margin-bottom: 80px;
 }
@@ -163,21 +175,13 @@ export default {
   width: 80%;
   display: block;
   margin: 0px auto;
+  margin-bottom: 20px;
 }
 
 /* --------------
 -----Service-----
 -------------- */
 
-.service-ttl {
-  font-size: 1.5rem;
-  text-align:center;
-  border-bottom: 0.5px solid #333;
-  padding: 20px 0;
-  width: 80%;
-  margin: 25px auto;
-  color:#333;
-}
 .service-wrap {
   width: 100%;
   display: flex;
@@ -227,15 +231,6 @@ export default {
 ----Features-----
 -------------- */
 
-.feature-ttl {
-  font-size: 1.5rem;
-  text-align:center;
-  border-bottom: 0.5px solid #333;
-  padding: 20px 0;
-  width: 80%;
-  margin: 25px auto;
-  color:#333;
-}
 .feature-wrap {
   width: 100%;
   display: flex;
@@ -272,15 +267,7 @@ export default {
 ------News-------
 -------------- */
 
-.news-ttl {
-  font-size: 1.5rem;
-  text-align:center;
-  border-bottom: 0.5px solid #333;
-  padding: 20px 0;
-  width: 80%;
-  margin: 25px auto;
-  color:#333;
-}
+
 .news-content {
   width: 60%;
   margin: 0px auto;
@@ -326,15 +313,7 @@ export default {
 ------Access-----
 -------------- */
 
-.access-ttl {
-  font-size: 1.5rem;
-  text-align:center;
-  border-bottom: 0.5px solid #333;
-  padding: 15px 0;
-  width: 80%;
-  margin: 25px auto;
-  color:#333;
-}
+
 .access-info {
   display: flex;
   justify-content: center;
@@ -367,28 +346,43 @@ export default {
 
 @media screen and (max-width: 768px) {
   .eyecatch img {
-    width: 90%;
+    width: 95%;
+  }
+  .section-ttl {
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 20px auto;
   }
   .service-wrap {
     flex-wrap: wrap;
   }
   .service-card {
-    width: 90%;
+    width: 100%;
     margin-bottom: 30px;
   }
   .service-card-content {
-    width: 90%;
+    width: 100%;
+    font-size: 0.7rem;
+    padding:0;
+  }
+  .service-card-ttl {
+    font-size: 1rem;
+    padding: 15px;
   }
   .service-detail p {
+    font-size: 0.8rem;
     margin: 10px;
+  }
+  .service-wrap img {
+    width: 80%;
+  }
+  .other-service h2 {
+    font-size: 1rem;
   }
   .feature-card {
     width: 90%;
   }
-  .service-wrap img {
-    width: 60%;
-    height: auto;
-  }
+  
   .feature-detail {
     display: block;
     padding-right: 0;
@@ -396,9 +390,13 @@ export default {
   .feature-card-ttl h2 {
     font-size: 1rem;
   }
+  .feature-card-ttl {
+    justify-content: center;
+  }
   .feture-card-content {
-    width: 95%;
-    font-size: 0.9rem;
+    width: 100%;
+    font-size: 1rem;
+    text-align: left;
   }
   .feature-img {
     width: 60%;
@@ -427,25 +425,26 @@ export default {
     margin-top: 25px;
     padding: 5px 20px;
   }
-  .access-ttl {
-    margin-bottom: 20px;
-  }
   .access-info {
     display: block;
     text-align: center;
+  }
+  .address {
+  padding: 20px;
   }
   .left img {
     display: none;
   }
   .left {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
+    font-size: 0.9rem;
   }
   .left span {
     margin: 0;
   }
   .map  {
-    width: 80%;
+    width: 95%;
     margin-top: 20px;
   }
 }

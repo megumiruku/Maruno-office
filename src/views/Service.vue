@@ -200,6 +200,9 @@ export default {
 -------------- */
 
 @media screen and (max-width: 768px) {
+  .ttl {
+    margin: 30px 0;
+  }
   .section-ttl {
     font-size: 1.1rem;
   }
@@ -207,7 +210,8 @@ export default {
   .service-all {
     margin-top: 30px;
     margin-bottom: 40px;
-    width: 90%;
+    width: 100%;
+    /* background-color: blue; */
   }
   .explain-content {
     font-size: 0.9rem;
@@ -217,10 +221,13 @@ export default {
     text-align:center;
   }
   .explain-content {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    padding: 10px;
+    /* padding: 10px; */
     text-align: left;
+  }
+  .explain img{
+    width: 80%;
   }
   .service-all .btn{
     margin: 5px;

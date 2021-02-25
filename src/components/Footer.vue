@@ -57,8 +57,7 @@
 
 @media screen and (max-width: 768px) {
   #footer {
-    position: relative;
-    height: 110px;
+    height: 140px;
   }
   .flex {
     display: block;
@@ -67,18 +66,17 @@
     display: none;
   }
   .left {
+    display: block;
     width: 60%;
-    margin: 0 auto;
+    margin: 5px auto;
   }
   .logo {
     width: 95%;
   }
   small {
-    font-size: 10px;
-    position: absolute;
-    bottom: 25px;
-    left: 5px;
-
+    font-size: 5px;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 }
 </style>

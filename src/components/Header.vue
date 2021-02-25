@@ -233,7 +233,7 @@ export default {
   #header {
     height: 50px;
     padding: 5px;
-    margin: 0;
+    margin-bottom: 20px;
   }
   .logo {
     margin-left: 0;
