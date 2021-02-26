@@ -93,6 +93,7 @@ export default {
   border: 1px solid #333;
   font-size: 0.9rem;
   width: 50%;
+  margin-left: 30px;
 }
 .table td,
 .table th {
@@ -103,7 +104,7 @@ export default {
 .right img {
   width: 75%;
   border-radius: 3px;
-  padding-bottom: 10px;
+  margin-bottom: 25px;
 }
 .access {
   width: 80%;
