@@ -71,7 +71,7 @@ export default {
 }
 .logo {
   width: 85%;
-  margin-left: 170px;
+  margin-left: 120px;
   margin-top: 10px;
 }
 .right {
@@ -104,7 +104,7 @@ export default {
   background:#FFA279;
   border: none;
   outline: none;
-  margin:20px 20px;
+  margin:20px 10px;
   font-weight: bold;
   font-size: 1.1rem;
   color: #fff;
@@ -130,19 +130,19 @@ export default {
   list-style: none;
 }
 .header-nav li {
-  padding: 0 50px;
+  padding: 0 45px;
   border-right: 0.5px solid #333;
 }
 .header-nav >:nth-child(1) {
   border-left: 0.5px solid #333;
-  padding-left: 50px;
+  padding-left: 45px;
 }
 .header-nav a {
   text-decoration: none;
   color: #333;
-  font-weight: bolder;
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  /* font-weight: bolder; */
 }
 .header-nav a:hover {
   opacity: 0.7;

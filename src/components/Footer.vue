@@ -38,13 +38,10 @@
 .header-nav li {
   line-height: 100px;
   padding-right: 30px;
-  font-size: 1.2rem;
   list-style: none;
 }
 .header-nav a {
   text-decoration: none;
-  color: #333;
-  font-weight: bold;
   cursor: pointer;
 }
 .header-nav a:hover {
@@ -73,6 +70,7 @@
     margin: 15px 0;
   }
   small {
+    padding-bottom: 10px;
     font-size: 8px
  
   }

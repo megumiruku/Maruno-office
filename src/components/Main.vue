@@ -155,7 +155,7 @@ export default {
 ----Common----
 -------------- */
 .section-ttl {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   text-align:center;
   border-bottom: 0.5px solid #333;
   padding: 25px 0;
@@ -196,17 +196,17 @@ export default {
   text-align: center;
 }
 .service-card-ttl {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   padding: 20px 0;
 }
 .service-card-content {
-  line-height: 1.7rem;
+  line-height: 1.5rem;
   padding: 10px 0;
-  width: 75%;
+  width: 85%;
   margin: 0 auto;
 }
 .other-service h2 {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   font-weight:bolder;
   text-align: center;
   padding: 50px 0;
@@ -223,7 +223,7 @@ export default {
   text-align: center;
   padding:15px;
   margin-bottom: 10px;
-  font-size: 19px;
+  font-size: 18px;
 }
 
 /* --------------
@@ -245,7 +245,7 @@ export default {
   align-items: center;
 }
 .feature-card-ttl h2 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   padding-left: 10px;
 }
 .feature-detail {
@@ -265,12 +265,10 @@ export default {
 ------News-------
 -------------- */
 
-
 .news-content {
   width: 60%;
   margin: 0px auto;
   padding-top: 50px;
-  font-size: 1.1rem;
 }
 .flex {
   display: flex
@@ -294,10 +292,10 @@ export default {
   opacity: 0.8;
 }
 .news-button {
-  padding: 15px 40px;
+  padding: 10px 25px;
   background-color: #FFA279;
   border: none;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
   color: #fff;
   display: block;
@@ -320,7 +318,7 @@ export default {
 }
 .left {
   width: 40%;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 .address {
   padding: 30px;
@@ -354,7 +352,7 @@ export default {
   .section-ttl {
     font-size: 1.2rem;
     padding: 10px;
-    margin: 10px auto;
+    margin: 25px auto;
   }
   .service-wrap {
     flex-wrap: wrap;
@@ -365,13 +363,13 @@ export default {
     margin-bottom: 30px;
   }
   .service-card-content {
-    width: 100%;
-    font-size: 0.7rem;
+    width: 90%;
+    font-size: 0.8rem;
     padding:0;
     font-weight: normal;
   }
   .service-card-ttl {
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding: 15px;
   }
   .service-detail p {
@@ -379,11 +377,12 @@ export default {
     margin: 10px;
   }
   .service-wrap img {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
   }
   .other-service h2 {
     font-size: 1rem;
+    padding: 20px;
   }
   .feature-card {
     width: 90%;
@@ -425,11 +424,12 @@ export default {
     padding: 0;
   }
   .news-content .date {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     text-align: center;
-    width: 40%;
+    width: 35%;
     margin: 20px auto;
-    padding: 3px;
+    padding: 0;
+    padding-bottom: 8px;
   }
   .news-button {
     margin: 30px auto;
