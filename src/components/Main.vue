@@ -58,7 +58,7 @@
       <div class="news-content">
         <div class="news1 flex">
           <p class="date">2021年02月23日</p>
-          <p class="content"><a href="">駐車場について</a></p>
+          <p class="content"><a href="">駐車場のご案内</a></p>
         </div>
         <div class="news2 flex">
           <p class="date">2021年02月22日</p>
@@ -155,12 +155,12 @@ export default {
 ----Common----
 -------------- */
 .section-ttl {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   text-align:center;
   border-bottom: 0.5px solid #333;
-  padding: 20px 0;
+  padding: 25px 0;
   width: 80%;
-  margin: 25px auto;
+  margin: 40px auto;
   color:#333;
 }
 .mg-80 {
@@ -175,7 +175,7 @@ export default {
   width: 80%;
   display: block;
   margin: 0px auto;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 /* --------------
@@ -196,18 +196,19 @@ export default {
   text-align: center;
 }
 .service-card-ttl {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   color: #333;
   padding: 20px 0;
 }
 .service-card-content {
-  line-height: 1.5rem;
+  line-height: 1.7rem;
+  font-weight: bold;
   padding: 10px 0;
   width: 75%;
   margin: 0 auto;
 }
 .other-service h2 {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-weight:bold;
   text-align: center;
   padding: 50px 0;
@@ -224,7 +225,8 @@ export default {
   text-align: center;
   padding:15px;
   margin-bottom: 10px;
-  font-weight: bolder;
+  font-size: 19px;
+  font-weight: bold;
 }
 
 /* --------------
@@ -257,7 +259,7 @@ export default {
   width: 65%;
   line-height: 30px;
   padding-top: 10px;
-  font-weight: 500;
+  font-weight: bolder;
 } 
 .feature-img {
   width: 40%;
@@ -286,6 +288,7 @@ export default {
 }
 .news-content .content {
   padding-left: 30px;
+  font-size: 1.3rem;
 }
 .content a {
   text-decoration: none;
@@ -295,7 +298,7 @@ export default {
   opacity: 0.8;
 }
 .news-button {
-  padding: 10px 20px;
+  padding: 15px 40px;
   background-color: #FFA279;
   border: none;
   font-weight: bold;
@@ -357,7 +360,8 @@ export default {
     flex-wrap: wrap;
   }
   .service-card {
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
     margin-bottom: 30px;
   }
   .service-card-content {
@@ -382,7 +386,6 @@ export default {
   .feature-card {
     width: 90%;
   }
-  
   .feature-detail {
     display: block;
     padding-right: 0;
@@ -395,7 +398,7 @@ export default {
   }
   .feture-card-content {
     width: 100%;
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-align: left;
   }
   .feature-img {
@@ -410,11 +413,14 @@ export default {
   }
   .news-content {
     width: 100%;
-    font-size: 0.9rem;
-    text-align: center;
     padding-top: 10px;
   }
+  .news-content .content {
+    font-size:0.8rem;
+    text-align: center;
+  }
   .news-content .date {
+    font-size: 0.9rem;
     text-align: center;
     width: 30%;
     margin: 20px auto;

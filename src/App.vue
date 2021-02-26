@@ -102,7 +102,7 @@ input, select {
 }
 *{
   font-family:serif;
-  color:#333;
+  color:#000;
 }
 #page_top{
   width: 50px;

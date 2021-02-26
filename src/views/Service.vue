@@ -97,8 +97,11 @@ export default {
 
 <style scoped>
 .ttl {
-  max-width: 100%;
-  margin: 20px 0;
+  width: 100%;
+  margin: 20px auto;
+}
+.ttl img {
+  width: 100%;
 }
 .explain {
   width: 80%;
@@ -113,13 +116,13 @@ export default {
   margin: 20px 0;
   padding-left: 20px;
   border-left: 4px solid #f7813d;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 .explain-content {
   line-height: 2rem;
   width: 50%;
   margin-right:20px ;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 .explain img {
   width: 400px;
@@ -128,11 +131,11 @@ export default {
 }
 .service-all {
   width: 80%;
-  margin: 70px auto;
+  margin: 20px auto;
   padding-bottom: 5%;
 }
-.service-btns{
-  text-align: center;
+.service-btns {
+  margin-top: 70px;
 }
 .service-all .btn {
   position: relative;
@@ -141,12 +144,13 @@ export default {
   width: 240px;
   padding: 15px 18px;
   color: #333;
-  font-size: 16px;
+  font-size: 18px;
   text-align: left;
   text-decoration: none;
   margin:10px 25px;
   font-weight: bold;
   border-radius: 3px;
+
 }
 .btn::after {
   position: absolute;

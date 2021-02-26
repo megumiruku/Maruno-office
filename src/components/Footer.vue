@@ -22,7 +22,7 @@
 
 <style scoped>
 #footer {
-  height: 150px;
+  height: 10%;
   background-color: #FFAC77;
   text-align: center;
   opacity: 0.9;
@@ -34,12 +34,13 @@
 }
 .left {
   width: 40%;
+  margin-top: 15px;
 }
 .header-nav li {
+  line-height: 100px;
   padding-right: 30px;
-  font-size: 17px;
+  font-size: 1.2rem;
   list-style: none;
-  line-height: 130px;
 }
 .header-nav a {
   text-decoration: none;
@@ -57,7 +58,7 @@
 
 @media screen and (max-width: 768px) {
   #footer {
-    height: 140px;
+    height: 10%;
   }
   .flex {
     display: block;
@@ -68,7 +69,8 @@
   .left {
     display: block;
     width: 60%;
-    margin: 5px auto;
+    margin: 0px auto;
+    margin-top: 15px;
   }
   .logo {
     width: 95%;

@@ -70,9 +70,9 @@ export default {
   align-items: center;
 }
 .logo {
-  width: 100%;
-  display: block;
-  margin-left: 50px;
+  width: 85%;
+  margin-left: 170px;
+  margin-top: 10px;
 }
 .right {
   width: 40%;
@@ -84,13 +84,13 @@ export default {
   text-align: center;
 }
 .tel-text {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   margin-bottom: 10px;
   padding-left: 20px;
   font-weight: bold;
 }
 .tel {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   color:#f7813d;
 }
 .icon-tel {
@@ -106,6 +106,7 @@ export default {
   outline: none;
   margin:20px 20px;
   font-weight: bold;
+  font-size: 1.1rem;
   color: #fff;
   border-radius: 10px;
   box-shadow: 5px 3px 3px rgba(0,0,0,0.3);
@@ -115,6 +116,7 @@ export default {
 }
 .icon-email {
   color: #fff;
+  padding-right: 5px;
 }
 .nav {
   width: 90%;
@@ -124,7 +126,7 @@ export default {
 .header-nav {
   display: flex;
   justify-content: center;
-  line-height: 30px;
+  line-height: 40px;
   list-style: none;
 }
 .header-nav li {
@@ -140,6 +142,7 @@ export default {
   color: #333;
   font-weight: bold;
   cursor: pointer;
+  font-size: 1.2rem;
 }
 .header-nav a:hover {
   opacity: 0.7;
@@ -236,7 +239,8 @@ export default {
     margin-bottom: 20px;
   }
   .logo {
-    margin-left: 0;
+    margin-left: 5px;
+    margin-top: 10px;
     width: 80%;
   }
 }
