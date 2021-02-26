@@ -87,7 +87,7 @@ export default {
   font-size: 0.8rem;
   margin-bottom: 10px;
   padding-left: 20px;
-  font-weight: bold;
+  font-weight: bolder;
 }
 .tel {
   font-size: 1.7rem;
@@ -140,7 +140,7 @@ export default {
 .header-nav a {
   text-decoration: none;
   color: #333;
-  font-weight: bold;
+  font-weight: bolder;
   cursor: pointer;
   font-size: 1.2rem;
 }
@@ -207,8 +207,7 @@ export default {
     top: 0;
     left: calc(-100% - 80px);
     background: #fff;
-    color: #333333;
-    box-shadow: 80px 0 rgba(38, 98, 213, 0.3);
+    box-shadow: 80px 0 rgba(252, 185, 92, 0.692);
     z-index: 999;
   }
   .menu-content .menu-title {
@@ -216,10 +215,8 @@ export default {
     font-size: 1.2rem;
     color: #333333;
     text-align: left;
-    font-weight: bold;
   }
   .menu-content li a {
-    color: #333333;
     margin: 15px;
     padding: 5px;
     border-bottom: 0.5px solid #FFA279;

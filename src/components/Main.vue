@@ -127,7 +127,7 @@ export default {
         {
           icon: require("../assets/feature-number3.png"),
           ttl:"土日祝日も対応致します（要予約制)",
-          content: "平日は仕事などで忙しい方のため、土日祝日でもご相談を受け付けております。ご予約制となりますのでご連絡をお願い致します",
+          content: "平日は仕事などで忙しい方のため、土日祝日でもご相談を受け付けております。ご予約制となりますのでご連絡をお願い致します。",
           img: require("../assets/feature3.jpeg"),
         },
         {
@@ -161,7 +161,6 @@ export default {
   padding: 25px 0;
   width: 80%;
   margin: 40px auto;
-  color:#333;
 }
 .mg-80 {
   margin-bottom: 80px;
@@ -188,7 +187,8 @@ export default {
   justify-content: center;
 }
 .service-card img {
-  max-width: 100%;
+  width: 100%;
+  display: block;
 }
 .service-card{
   width: 25%;
@@ -197,19 +197,17 @@ export default {
 }
 .service-card-ttl {
   font-size: 1.6rem;
-  color: #333;
   padding: 20px 0;
 }
 .service-card-content {
   line-height: 1.7rem;
-  font-weight: bold;
   padding: 10px 0;
   width: 75%;
   margin: 0 auto;
 }
 .other-service h2 {
   font-size: 1.6rem;
-  font-weight:bold;
+  font-weight:bolder;
   text-align: center;
   padding: 50px 0;
 }
@@ -226,7 +224,6 @@ export default {
   padding:15px;
   margin-bottom: 10px;
   font-size: 19px;
-  font-weight: bold;
 }
 
 /* --------------
@@ -259,7 +256,6 @@ export default {
   width: 65%;
   line-height: 30px;
   padding-top: 10px;
-  font-weight: bolder;
 } 
 .feature-img {
   width: 40%;
@@ -301,6 +297,7 @@ export default {
   padding: 15px 40px;
   background-color: #FFA279;
   border: none;
+  font-size: 15px;
   font-weight: bold;
   color: #fff;
   display: block;
@@ -348,13 +345,16 @@ export default {
 -------------- */
 
 @media screen and (max-width: 768px) {
+  .mg-80 {
+    margin-bottom: 35px;
+  }
   .eyecatch img {
     width: 95%;
   }
   .section-ttl {
     font-size: 1.2rem;
     padding: 10px;
-    margin: 20px auto;
+    margin: 10px auto;
   }
   .service-wrap {
     flex-wrap: wrap;
@@ -379,7 +379,8 @@ export default {
     margin: 10px;
   }
   .service-wrap img {
-    width: 80%;
+    width: 50%;
+    margin: 0 auto;
   }
   .other-service h2 {
     font-size: 1rem;
@@ -426,14 +427,14 @@ export default {
   .news-content .date {
     font-size: 0.9rem;
     text-align: center;
-    width: 30%;
+    width: 40%;
     margin: 20px auto;
     padding: 3px;
   }
   .news-button {
-    margin: 0px auto;
-    margin-top: 25px;
+    margin: 30px auto;
     padding: 5px 20px;
+    font-size: 0.7rem;
   }
   .access-info {
     display: block;
@@ -452,6 +453,7 @@ export default {
   }
   .left span {
     margin: 0;
+    font-size: 12px;
   }
   .map  {
     width: 95%;

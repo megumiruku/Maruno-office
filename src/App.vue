@@ -101,8 +101,8 @@ input, select {
     vertical-align:middle;
 }
 *{
-  font-family:serif;
-  color:#000;
+  font-family: 'Noto Serif JP', sans-serif;
+  color:#333333;
 }
 #page_top{
   width: 50px;

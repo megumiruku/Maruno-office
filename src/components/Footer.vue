@@ -22,7 +22,6 @@
 
 <style scoped>
 #footer {
-  height: 10%;
   background-color: #FFAC77;
   text-align: center;
   opacity: 0.9;
@@ -74,7 +73,7 @@
     margin: 15px 0;
   }
   small {
-    font-size: 10px;
+    font-size: 8px
  
   }
 }
