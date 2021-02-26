@@ -175,9 +175,15 @@ textarea {
 -------------- */
 
 @media screen and (max-width: 768px) {
-  .section-ttl {
-    font-size: 1.1rem;
+  .ttl{
+    width: 100%;
     margin-bottom: 30px;
+  }
+  .section-ttl {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    margin-left: 15px;
   }
   .contact-info,
   form{

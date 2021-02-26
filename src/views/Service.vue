@@ -206,6 +206,8 @@ export default {
   }
   .section-ttl {
     font-size: 1rem;
+    padding-left: 15px;
+    margin-left: 15px;
   }
   .explain,
   .service-all {

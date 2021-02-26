@@ -148,29 +148,31 @@ export default {
     margin-bottom: 35px;
   }
   .section-ttl {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    margin-left: 15px;
   }
   .flex {
     display: block;
   }
   .table {
-    width: 90%;
+    width: 85%;
     margin: 20px auto;
     border: none;
-    margin-bottom: 0;
   }
   .table th { 
     border-bottom: none;
   }
   th, td {
     display: block;
-    width: 90%;
     text-align: center;
   }
   .right img {
-    width: 80%;
+    width: 70%;
     display: block;
     margin: 0px auto;
+    padding-bottom: 40px;
   }
   .left {
     width: 90%;
