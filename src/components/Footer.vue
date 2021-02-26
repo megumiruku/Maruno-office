@@ -57,9 +57,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  #footer {
-    height: 10%;
-  }
   .flex {
     display: block;
   }
@@ -74,11 +71,11 @@
   }
   .logo {
     width: 95%;
+    margin: 15px 0;
   }
   small {
-    font-size: 5px;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    font-size: 10px;
+ 
   }
 }
 </style>

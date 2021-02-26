@@ -368,6 +368,7 @@ export default {
     width: 100%;
     font-size: 0.7rem;
     padding:0;
+    font-weight: normal;
   }
   .service-card-ttl {
     font-size: 1rem;
@@ -400,6 +401,7 @@ export default {
     width: 100%;
     font-size: 0.8rem;
     text-align: left;
+    font-weight: normal;
   }
   .feature-img {
     width: 60%;
@@ -418,6 +420,8 @@ export default {
   .news-content .content {
     font-size:0.8rem;
     text-align: center;
+    margin: 0;
+    padding: 0;
   }
   .news-content .date {
     font-size: 0.9rem;
