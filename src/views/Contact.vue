@@ -120,7 +120,7 @@ export default {
 }
 form {
   width: 70%;
-  margin: 70px auto;
+  margin: 50px auto;
   padding-left: 20px ;
   text-align: center;
 }
@@ -156,7 +156,7 @@ textarea {
 }
 .button{
   width: 30%;
-  margin:50px 0;
+  margin-top: 50px;
   text-align: center;
   padding: 10px 50px;
   font-size: 15px;

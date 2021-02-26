@@ -48,7 +48,7 @@
           </div>
         </div>
         <div class="right">
-          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1637.821541163494!2d135.58173505792846!3d34.81492039510136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e2bf4b146839%3A0x47db4d50c46e01db!2z44CSNTY3LTA4MjQg5aSn6Ziq5bqc6Iyo5pyo5biC5Lit5rSl55S677yS77yR4oiS77yR77yY!5e0!3m2!1sja!2sjp!4v1613969955866!5m2!1sja!2sjp" width="600" height="450" style="border:0;"  loading="lazy"></iframe>
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1637.821541163494!2d135.58173505792846!3d34.81492039510136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e2bf4b146839%3A0x47db4d50c46e01db!2z44CSNTY3LTA4MjQg5aSn6Ziq5bqc6Iyo5pyo5biC5Lit5rSl55S677yS77yR4oiS77yR77yY!5e0!3m2!1sja!2sjp!4v1613969955866!5m2!1sja!2sjp" width="600" height="400" style="border:0;"  loading="lazy"></iframe>
         </div>
       </div>
     </div>
@@ -92,8 +92,6 @@ export default {
 .table {
   border: 1px solid #333;
   font-size: 0.9rem;
-  margin:50px;
-  margin-bottom: 0;
   width: 50%;
 }
 .table td,
@@ -103,13 +101,13 @@ export default {
   padding:10px;
 }
 .right img {
-  width: 80%;
-  margin-top: 50px;
+  width: 75%;
   border-radius: 3px;
+  padding-bottom: 10px;
 }
 .access {
   width: 80%;
-  margin: 70px auto;
+  margin: 50px auto;
 }
 .flex {
   display: flex;
@@ -128,6 +126,9 @@ export default {
 .car-access,
 .train-access {
   padding:10px 20px;
+}
+.right {
+  padding-top:30px
 }
 
 /* --------------
@@ -155,6 +156,7 @@ export default {
     width: 90%;
     margin: 20px auto;
     border: none;
+    margin-bottom: 0;
   }
   .table th { 
     border-bottom: none;
@@ -167,7 +169,7 @@ export default {
   .right img {
     width: 80%;
     display: block;
-    margin: 30px auto;
+    margin: 0px auto;
   }
   .left {
     width: 90%;

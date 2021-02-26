@@ -21,12 +21,12 @@
       <div class="other-service">
         <h2>その他のサービス</h2>
         <div class="service-detail">
-          <p>裁判関連業務</p>
-          <p>供託手続</p>
-          <p>帰化申請</p>
-          <p>相続遺言</p>
-          <p>公正証書作成</p>
-          <p>法律相談</p>
+          <p @click="link()">裁判関連業務</p>
+          <p @click="link()">供託手続</p>
+          <p @click="link()">帰化申請</p>
+          <p @click="link()">相続遺言</p>
+          <p @click="link()">公正証書作成</p>
+          <p @click="link()">法律相談</p>
         </div>
       </div>
     </div>
@@ -194,6 +194,7 @@ export default {
   width: 25%;
   margin: 0 10px;
   text-align: center;
+  cursor: pointer;
 }
 .service-card-ttl {
   font-size: 1.3rem;
@@ -224,6 +225,7 @@ export default {
   padding:15px;
   margin-bottom: 10px;
   font-size: 18px;
+  cursor: pointer;
 }
 
 /* --------------
@@ -282,7 +284,7 @@ export default {
 }
 .news-content .content {
   padding-left: 30px;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 .content a {
   text-decoration: none;

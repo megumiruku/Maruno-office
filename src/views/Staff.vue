@@ -63,7 +63,7 @@ export default {
 }
 .office {
   width: 80%;
-  margin: 70px auto;
+  margin: 50px auto;
 }
 .flex {
   display: flex;
