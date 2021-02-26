@@ -96,9 +96,9 @@ export default {
 </script>
 
 <style scoped>
-.ttl {
-  width: 80%;
-  margin: 20px auto;
+.ttl img{
+  display: block;
+  margin-bottom: 40px;
 }
 .explain {
   width: 80%;
@@ -113,7 +113,7 @@ export default {
   margin: 20px 0;
   padding-left: 20px;
   border-left: 4px solid #f7813d;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 .explain-content {
   line-height: 2rem;
@@ -222,6 +222,7 @@ export default {
   }
   .explain img{
     width: 70%;
+    margin-bottom: 20px;
   }
   .service-btns {
     margin-top: 30px;
@@ -248,7 +249,7 @@ export default {
     margin: 25px auto;
   }
   .detail-img {
-    width: 80%;
+    width: 65%;
     margin: 20px auto;
   }
   .detail-content {

@@ -53,6 +53,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  #footer {
+    padding-bottom: 10px;
+  }
   .flex {
     display: block;
   }
@@ -70,9 +73,7 @@
     margin: 15px 0;
   }
   small {
-    padding-bottom: 10px;
-    font-size: 8px
- 
+    font-size: 10px
   }
 }
 </style>
