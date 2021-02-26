@@ -96,9 +96,10 @@ export default {
 </script>
 
 <style scoped>
-.ttl img{
+.ttl{
   display: block;
-  margin-bottom: 40px;
+  width: 80%;
+  margin:20px auto;
 }
 .explain {
   width: 80%;
@@ -158,6 +159,9 @@ export default {
   transform: rotate(135deg);
   transition: all .2s;
 }
+.btn:hover {
+  opacity: 0.8;
+}
 .btn:hover::after {
   opacity: 0.7;
   top: 45%;
@@ -181,7 +185,7 @@ export default {
   align-items: center;
 }
 .detail-img {
-  width: 40%;
+  width: 30%;
   display: block;
 }
 .detail-content {
@@ -196,12 +200,12 @@ export default {
 -------------- */
 
 @media screen and (max-width: 768px) {
-  .ttl {
+  .ttl{
     width: 100%;
-    margin: 30px auto;
+    margin-bottom: 30px;
   }
   .section-ttl {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .explain,
   .service-all {

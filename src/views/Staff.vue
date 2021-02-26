@@ -51,14 +51,15 @@ export default {
 
 <style scoped>
 .ttl {
-  max-width: 100%;
-  margin: 20px 0;
+  display: block;
+  width: 80%;
+  margin:20px auto;
 }
 .section-ttl {
   margin: 20px 0;
   padding-left: 20px;
   border-left: 4px solid #f7813d;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 .office {
   width: 80%;
@@ -70,9 +71,9 @@ export default {
   align-items: center;
 }
 .office-content {
-  line-height: 2rem;
+  line-height: 1.8rem;
   width: 61%;
-  margin-right:20px ;
+  margin-right: 20px ;
   font-size: 1.2rem;
 }
 .office img {
@@ -82,14 +83,16 @@ export default {
 }
 .profile {
   width: 80%;
-  margin: 70px auto;
+  margin: 50px auto;
 }
 .name {
+  text-align: center;
   font-size: 1.3rem;
   border-bottom: 3px dashed #f7813d;
   width: 25%;
   padding:10px;
-  margin: 20px 0;
+  margin: 0 10px;
+  margin-top: 20px;
 }
 .description {
   line-height: 1.5rem;
@@ -113,8 +116,12 @@ export default {
 -------------- */
 
 @media screen and (max-width: 768px) {
+  .ttl{
+    width: 100%;
+    margin-bottom: 30px;
+  }
   .section-ttl {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .flex {
     display: block;
@@ -122,25 +129,24 @@ export default {
   }
   .office,
   .profile {
-    width: 90%;
+    width: 95%;
     margin-top:30px;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
   }
   .office-content {
-    width: 90%;
-    margin-right: 0px;
+    width: 95%;
     margin: 20px auto;
-    line-height: 1.2rem;
+    line-height: 1.4rem;
     font-size: 0.8rem;
   }
   .office img {
     display: block;
-    width: 80%;
-    margin: 0 auto;
+    width: 70%;
+    margin: 20px auto;
   }
   .maruno,
   .morimoto {
-    width: 90%;
+    width: 95%;
     margin: 20px auto;
     font-size: 0.8rem;
   }
@@ -148,7 +154,12 @@ export default {
     font-size: 1rem;
     width: 50%;
     text-align: center;
-    margin: 0 auto;
+    margin: 0px auto;
+    margin-top: 20px;
+  }
+  .profile li {
+    width: 95%;
+    line-height: 1rem;
   }
 }
 

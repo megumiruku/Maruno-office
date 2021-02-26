@@ -85,19 +85,20 @@ export default {
 </script>
 
 <style scoped>
-.ttl {
-  max-width: 100%;
-  margin: 20px 0;
+.ttl{
+  display: block;
+  width: 80%;
+  margin: 20px auto;
 }
 .contact-info{
   width: 70%;
-  margin: 70px auto;
+  margin: 50px auto;
 }
 .section-ttl {
   margin: 20px 0;
   padding-left: 20px;
   border-left: 4px solid #f7813d;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 .tel div {
   background-color: #FFA279;
@@ -176,17 +177,25 @@ textarea {
 @media screen and (max-width: 768px) {
   .section-ttl {
     font-size: 1.1rem;
+    margin-bottom: 30px;
   }
   .contact-info,
   form{
-    width: 90%;
+    width: 95%;
     margin-top: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   .tel div {
-    width: 70%;
+    width: 65%;
     margin: 40px auto;
+    padding: 15px 20px;
   }
+  .number{
+    font-size: 1.2rem;
+  }
+  .hours {
+    font-size: 0.8rem;
+}
   label {
     display: block;
     margin: 10px auto;
@@ -205,6 +214,7 @@ textarea {
   }
   .button {
     width: 80%;
+    margin-bottom: 20px;
   }
 }
 </style>

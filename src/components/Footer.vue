@@ -51,6 +51,9 @@
 .logo {
   width: 70%;
 }
+small {
+  font-size: 14px;
+}
 
 @media screen and (max-width: 768px) {
   #footer {
@@ -73,7 +76,7 @@
     margin: 15px 0;
   }
   small {
-    font-size: 10px
+    font-size: 9px
   }
 }
 </style>

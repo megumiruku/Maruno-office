@@ -76,7 +76,7 @@ export default {
 }
 .about-office {
   width: 80%;
-  margin: 70px auto;
+  margin: 50px auto;
 }
 .flex {
   display: flex;
@@ -87,7 +87,7 @@ export default {
   margin: 20px 0;
   padding-left: 20px;
   border-left: 4px solid #f7813d;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 .table {
   border: 1px solid #333;
@@ -103,7 +103,7 @@ export default {
   padding:10px;
 }
 .right img {
-  max-width: 100%;
+  width: 80%;
   margin-top: 50px;
   border-radius: 3px;
 }
@@ -116,29 +116,34 @@ export default {
   justify-content: space-around;
 }
 .left {
-  width: 50%;
+  width: 70%;
+  margin-right: 15px;
 }
 .train-ttl,
 .car-ttl {
   padding:20px 0;
   font-size: 1.1rem;
+  text-align: center;
 }
 .car-access,
 .train-access {
   padding:10px 20px;
 }
 
-
 /* --------------
 -----Responsive----
 -------------- */
 
 @media screen and (max-width: 768px) {
+  .ttl{
+    width: 100%;
+    margin-bottom: 30px;
+  }
   .about-office,
   .access {
-    width: 90%;
+    width: 95%;
     margin-top: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
   }
   .section-ttl {
     font-size: 1.1rem;
@@ -160,7 +165,7 @@ export default {
     text-align: center;
   }
   .right img {
-    width: 90%;
+    width: 80%;
     display: block;
     margin: 30px auto;
   }
@@ -171,8 +176,19 @@ export default {
   }
   .map {
     display: block;
-    width:90%;
+    width:95%;
     margin: 20px auto;
   }
+  .train-ttl,
+  .car-ttl {
+  padding:20px 0;
+  font-size: 0.9rem;
+  text-align: center;
+  }
+  .car-access,
+  .train-access {
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
 }
 </style>
