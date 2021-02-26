@@ -87,7 +87,6 @@ export default {
   font-size: 0.8rem;
   margin-bottom: 10px;
   padding-left: 20px;
-  font-weight: bolder;
 }
 .tel {
   font-size: 1.7rem;

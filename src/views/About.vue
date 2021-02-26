@@ -69,9 +69,10 @@ export default {
 </script>
 
 <style scoped>
-.ttl {
-  max-width: 100%;
-  margin: 20px 0;
+.ttl{
+  display: block;
+  width: 80%;
+  margin: 20px auto;
 }
 .about-office {
   width: 80%;

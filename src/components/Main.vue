@@ -362,15 +362,15 @@ export default {
     margin: 0 auto;
     margin-bottom: 30px;
   }
+  .service-card-ttl {
+    font-size: 1rem;
+    padding: 15px;
+  }
   .service-card-content {
     width: 90%;
     font-size: 0.8rem;
     padding:0;
     font-weight: normal;
-  }
-  .service-card-ttl {
-    font-size: 0.8rem;
-    padding: 15px;
   }
   .service-detail p {
     font-size: 0.8rem;

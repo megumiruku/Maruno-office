@@ -97,15 +97,12 @@ export default {
 
 <style scoped>
 .ttl {
-  width: 100%;
+  width: 80%;
   margin: 20px auto;
-}
-.ttl img {
-  width: 100%;
 }
 .explain {
   width: 80%;
-  margin: 70px auto;
+  margin: 50px auto;
 }
 .flex {
   display: flex;
@@ -116,26 +113,25 @@ export default {
   margin: 20px 0;
   padding-left: 20px;
   border-left: 4px solid #f7813d;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 .explain-content {
   line-height: 2rem;
   width: 50%;
   margin-right:20px ;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .explain img {
-  width: 400px;
-  display: inline-block;
-  padding-bottom: 10px;
+  width: 30%;
 }
 .service-all {
   width: 80%;
   margin: 20px auto;
-  padding-bottom: 5%;
+  padding-bottom: 25px;
 }
 .service-btns {
-  margin-top: 70px;
+  margin-top: 60px;
+  text-align: center;
 }
 .service-all .btn {
   position: relative;
@@ -143,14 +139,11 @@ export default {
   display: inline-block;
   width: 240px;
   padding: 15px 18px;
-  color: #333;
-  font-size: 18px;
-  text-align: left;
+  font-size: 15px;
   text-decoration: none;
   margin:10px 25px;
-  font-weight: bold;
+  font-weight: bolder;
   border-radius: 3px;
-
 }
 .btn::after {
   position: absolute;
@@ -195,8 +188,7 @@ export default {
   margin-left: 5%;
   width: 50%;
   text-align: left;
-  font-size: 1.1rem;
-  line-height: 1.6rem;
+  line-height: 1.5rem;
 }
 
 /* --------------
@@ -205,7 +197,8 @@ export default {
 
 @media screen and (max-width: 768px) {
   .ttl {
-    margin: 30px 0;
+    width: 100%;
+    margin: 30px auto;
   }
   .section-ttl {
     font-size: 1.1rem;
@@ -213,45 +206,53 @@ export default {
   .explain,
   .service-all {
     margin-top: 30px;
-    margin-bottom: 40px;
-    width: 100%;
-    /* background-color: blue; */
-  }
-  .explain-content {
-    font-size: 0.9rem;
+    margin-bottom: 20px;
+    width: 95%;
   }
    .flex {
     display: block;
     text-align:center;
   }
   .explain-content {
-    width: 100%;
-    margin: 0 auto;
-    /* padding: 10px; */
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    width: 95%;
+    margin: 10px auto;
     text-align: left;
   }
   .explain img{
-    width: 80%;
+    width: 70%;
+  }
+  .service-btns {
+    margin-top: 30px;
   }
   .service-all .btn{
+    font-weight: normal;
+    text-align: left;
     margin: 5px;
-    width: 200px;
+    width: 130px;
+    font-size: 0.8rem;
   }
   .flex-2 {
     display: block;
     text-align: center;
   }
+  .service-detail {
+    width: 90%;
+    margin-bottom: 30px;
+  }
   .detail-ttl {
     width: 50%;
-    font-size: 1rem;
-    padding-bottom: 8px;
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin: 25px auto;
   }
   .detail-img {
-    width: 90%;
+    width: 80%;
     margin: 20px auto;
   }
   .detail-content {
-    width: 100%;
+    width: 90%;
     font-size: 0.8rem;
   }
 }
