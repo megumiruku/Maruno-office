@@ -141,7 +141,6 @@ export default {
   color: #333;
   cursor: pointer;
   font-size: 1.1rem;
-  /* font-weight: bolder; */
 }
 .header-nav a:hover {
   opacity: 0.7;

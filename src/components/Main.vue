@@ -124,17 +124,17 @@ export default {
           content: "当事務所は大阪府茨木市に根差し、あらゆる悩みにお応えできるようご自宅やご希望の場所へ伺ってのご相談を承っております。",
           img: require("../assets/feature2.jpeg"),
         },
+         {
+          icon: require("../assets/feature-number4.png"),
+          ttl:"様々なニーズにお応え致します",
+          content: "お客様ごとにきちんとお時間をとり、丁寧でご納得頂けるご説明を心掛けておりますので安心してご相談下さい。",
+          img: require("../assets/feature3.jpeg"),
+        },
         {
           icon: require("../assets/feature-number3.png"),
           ttl:"土日祝日も対応致します（要予約制)",
           content: "平日は仕事などで忙しい方のため、土日祝日でもご相談を受け付けております。ご予約制となりますのでご連絡をお願い致します。",
-          img: require("../assets/feature3.jpeg"),
-        },
-        {
-          icon: require("../assets/feature-number4.png"),
-          ttl:"様々なニーズにお応え致します",
-          content: "お客様ごとにきちんとお時間をとり、丁寧でご納得頂けるご説明を心掛けておりますので安心してご相談下さい。",
-          img: require("../assets/meeting-1184892_640.png"),
+          img: require("../assets/feature4.jpeg"),
         }
       ]
     };

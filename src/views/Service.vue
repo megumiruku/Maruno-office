@@ -66,21 +66,21 @@ export default {
         {
           ttl: "自己破産",
           id: "service4",
-          img: require("../assets/bankruptcy.jpg"),
+          img: require("../assets/bankrupcy.jpeg"),
           alt: "自己破産",
           content: "原則として破産の決定を受けた時点での自分の財産（生活に必要なものを除く）を失う代わりに、全ての債務が免除され、破産宣告以後の収入や新たに得た財産を債務の弁済に当てる事なく、経済的な更正を図るものです。"
         },
         {
           ttl: "民事再生",
           id: "service5",
-          img: require("../assets/money.jpeg"),
+          img: require("../assets/Civil Rehabilitation.jpeg"),
           alt: "民事再生",
           content: "借金を圧縮し返済計画通りに返済を行います。破産の場合は財産を手放さなければなりませんが民事再生の場合は財産を守ることが可能です。住宅ローンをかかえている方、商売を続けたい方には最適な整理方法です。但し、自宅をのこす場合は、原則今まで通り住宅ローンは支払うことになり、その他の借金は圧縮されます。"
         },
         {
           ttl:"その他",
           id: "service6",
-          img:require("../assets/money.jpeg"),
+          img:require("../assets/others.jpeg"),
           alt: "その他",
           content: "裁判関連業務、供託手続、帰化申請、相続遺言、公正証書作成、法律相談なども行っております。"
         }

@@ -22,9 +22,8 @@
 
 <style scoped>
 #footer {
-  background-color: #FFAC77;
+  background-color: rgba(247, 129, 61, 0.7);
   text-align: center;
-  opacity: 0.9;
 }
 .flex {
   display: flex;
